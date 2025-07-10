@@ -2616,24 +2616,6 @@ def initialize_professional_platform():
     logger.info(f"   Client: client / client123")
     logger.info(f"📊 Run /create-sample-data to populate with professional demo data")
 
-# ===== MAIN APPLICATION ENTRY POINT =====
-
-if __name__ == '__main__':
-    try:
-        # Initialize the professional platform
-        initialize_professional_platform()
-        
-        # Configure development server
-        app.run(
-            host='0.0.0.0',
-            port=5000,
-            debug=True,
-            threaded=True
-        )
-        
-    except Exception as e:
-        logger.error(f"❌ Application startup failed: {e}")
-        sys.exit(1)
 
 @app.route('/view-manual-room/<int:room_id>')
 @login_required
@@ -3466,3 +3448,21 @@ def engineer_dashboard():
     '''
     
     return render_professional_page(content)
+# ===== MAIN APPLICATION ENTRY POINT =====
+
+if __name__ == '__main__':
+    try:
+        # Initialize the professional platform
+        initialize_professional_platform()
+        
+        # Configure development server
+        app.run(
+            host='0.0.0.0',
+            port=5000,
+            debug=True,
+            threaded=True
+        )
+        
+    except Exception as e:
+        logger.error(f"❌ Application startup failed: {e}")
+        sys.exit(1)
