@@ -359,17 +359,21 @@ class ManualRoomEntry(db.Model):
     
     @property
     def assessment_completeness(self):
-        # Calculate assessment completeness based on filled fields
-        total_fields = 50  # Approximate number of assessable fields
-        filled_fields = 0
-        
-        for column in self.__table__.columns:
-            if column.name not in ['id', 'created_at', 'updated_at']:
-                value = getattr(self, column.name)
-                if value is not None and value != '':
-                    filled_fields += 1
-        
-        return round((filled_fields / total_fields) * 100, 1)
+        """Return percentage of fields that have been filled in."""
+        valid_cols = [
+            c.name
+            for c in self.__table__.columns
+            if c.name not in ("id", "created_at", "updated_at")
+        ]
+
+        filled_fields = sum(
+            1
+            for col in valid_cols
+            if (getattr(self, col) not in (None, ""))
+        )
+
+        total_fields = len(valid_cols)
+        return round((filled_fields / total_fields) * 100, 1) if total_fields else 0
     
     def __repr__(self):
         return f'<ManualRoom {self.site_name} - {self.assessment_completeness}% complete>'
