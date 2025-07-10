@@ -12,6 +12,14 @@ import logging
 from dotenv import load_dotenv
 load_dotenv()
 
+# Ensure UTF-8 encoding for console output to handle emojis gracefully
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 from flask import Flask, render_template_string, request, redirect, url_for, flash, session, jsonify, send_file
 from flask_admin import Admin, AdminIndexView, expose
 from flask_admin.contrib.sqla import ModelView
@@ -56,8 +64,8 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('promamec_ct_scanner.log'),
-        logging.StreamHandler()
+        logging.FileHandler('promamec_ct_scanner.log', encoding='utf-8'),
+        logging.StreamHandler(sys.stdout)
     ]
 )
 logger = logging.getLogger(__name__)
@@ -1806,7 +1814,8 @@ def scanner_comparison():
         </div>
     </div>
     '''
-    
+    return render_professional_page(content)
+
 @app.route('/view-report/<int:report_id>')
 @login_required
 def view_report(report_id):
