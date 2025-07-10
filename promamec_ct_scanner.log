@@ -125,3 +125,957 @@
 2025-07-09 18:29:29,193 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 18:29:29] "GET /login HTTP/1.1" 200 -
 2025-07-09 18:29:31,049 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 18:29:31] "POST /login HTTP/1.1" 200 -
 2025-07-09 18:29:39,733 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 18:29:39] "POST /login HTTP/1.1" 200 -
+2025-07-09 21:23:51,108 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 21:23:51,197 - __main__ - INFO -  Initializing Promamec CT Scanner Professional Suite...
+2025-07-09 21:23:51,236 - __main__ - INFO -  Professional database initialized successfully
+2025-07-09 21:23:51,237 - __main__ - INFO -  Professional platform initialization complete
+2025-07-09 21:23:51,237 - __main__ - INFO -  Access the platform at: http://localhost:5000
+2025-07-09 21:23:51,238 - __main__ - INFO -  Demo credentials:
+2025-07-09 21:23:51,238 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 21:23:51,238 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 21:23:51,238 - __main__ - INFO -    Client: client / client123
+2025-07-09 21:23:51,238 - __main__ - INFO -  Run /create-sample-data to populate with professional demo data
+2025-07-09 21:23:51,297 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.121:5000
+2025-07-09 21:23:51,297 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 21:23:51,300 - werkzeug - INFO -  * Restarting with stat
+2025-07-09 21:23:54,100 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 21:23:54,199 - __main__ - INFO -  Initializing Promamec CT Scanner Professional Suite...
+2025-07-09 21:23:54,202 - __main__ - INFO -  Professional database initialized successfully
+2025-07-09 21:23:54,203 - __main__ - INFO -  Professional platform initialization complete
+2025-07-09 21:23:54,203 - __main__ - INFO -  Access the platform at: http://localhost:5000
+2025-07-09 21:23:54,203 - __main__ - INFO -  Demo credentials:
+2025-07-09 21:23:54,203 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 21:23:54,204 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 21:23:54,204 - __main__ - INFO -    Client: client / client123
+2025-07-09 21:23:54,204 - __main__ - INFO -  Run /create-sample-data to populate with professional demo data
+2025-07-09 21:23:54,219 - werkzeug - WARNING -  * Debugger is active!
+2025-07-09 21:23:54,228 - werkzeug - INFO -  * Debugger PIN: 411-176-201
+2025-07-09 21:24:00,539 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:00] "GET / HTTP/1.1" 200 -
+2025-07-09 21:24:01,305 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 21:24:31,121 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:31] "GET /login HTTP/1.1" 200 -
+2025-07-09 21:24:34,270 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:34] "POST /login HTTP/1.1" 200 -
+2025-07-09 21:24:43,045 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:43] "POST /login HTTP/1.1" 200 -
+2025-07-09 21:24:48,414 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:48] "[32mGET /create-sample-data HTTP/1.1[0m" 302 -
+2025-07-09 21:24:48,433 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:48] "GET / HTTP/1.1" 200 -
+2025-07-09 21:24:51,356 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:51] "[32mGET /create-sample-data HTTP/1.1[0m" 302 -
+2025-07-09 21:24:51,583 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:51] "GET / HTTP/1.1" 200 -
+2025-07-09 21:24:58,500 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:24:58] "[33mGET /{{%20url_for('dashboard')%20}} HTTP/1.1[0m" 404 -
+2025-07-09 21:25:02,056 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:25:02] "[33mGET /{{%20url_for('manual_room_entry')%20}} HTTP/1.1[0m" 404 -
+2025-07-09 21:28:17,023 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 21:28:17,138 - __main__ - INFO -  Initializing Promamec CT Scanner Professional Suite...
+2025-07-09 21:28:17,141 - __main__ - INFO -  Professional database initialized successfully
+2025-07-09 21:28:17,142 - __main__ - INFO -  Professional platform initialization complete
+2025-07-09 21:28:17,142 - __main__ - INFO -  Access the platform at: http://localhost:5000
+2025-07-09 21:28:17,142 - __main__ - INFO -  Demo credentials:
+2025-07-09 21:28:17,143 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 21:28:17,143 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 21:28:17,143 - __main__ - INFO -    Client: client / client123
+2025-07-09 21:28:17,143 - __main__ - INFO -  Run /create-sample-data to populate with professional demo data
+2025-07-09 21:28:17,170 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.121:5000
+2025-07-09 21:28:17,171 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 21:28:17,172 - werkzeug - INFO -  * Restarting with stat
+2025-07-09 21:28:19,849 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 21:28:19,935 - __main__ - INFO -  Initializing Promamec CT Scanner Professional Suite...
+2025-07-09 21:28:19,939 - __main__ - INFO -  Professional database initialized successfully
+2025-07-09 21:28:19,940 - __main__ - INFO -  Professional platform initialization complete
+2025-07-09 21:28:19,940 - __main__ - INFO -  Access the platform at: http://localhost:5000
+2025-07-09 21:28:19,940 - __main__ - INFO -  Demo credentials:
+2025-07-09 21:28:19,941 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 21:28:19,941 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 21:28:19,941 - __main__ - INFO -    Client: client / client123
+2025-07-09 21:28:19,941 - __main__ - INFO -  Run /create-sample-data to populate with professional demo data
+2025-07-09 21:28:19,955 - werkzeug - WARNING -  * Debugger is active!
+2025-07-09 21:28:19,961 - werkzeug - INFO -  * Debugger PIN: 411-176-201
+2025-07-09 21:28:29,903 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:29] "GET / HTTP/1.1" 200 -
+2025-07-09 21:28:30,540 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 21:28:31,973 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:31] "GET /login HTTP/1.1" 200 -
+2025-07-09 21:28:34,142 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-09 21:28:34,161 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-09 21:28:34,259 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "GET /admin/ HTTP/1.1" 200 -
+2025-07-09 21:28:34,659 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,672 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,691 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,700 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,711 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,718 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,725 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,736 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,737 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,739 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,740 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,740 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:34,742 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:34] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,208 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "GET /admin/user/ HTTP/1.1" 200 -
+2025-07-09 21:28:38,273 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,286 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,286 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,287 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,288 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,288 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,288 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,304 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,309 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,313 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,320 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,323 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,327 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,332 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,345 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,358 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,359 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,373 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,376 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,391 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/bootstrap/bootstrap4/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,392 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:38,393 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:38] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,490 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "GET /admin/project/ HTTP/1.1" 200 -
+2025-07-09 21:28:41,546 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,548 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,552 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,557 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,557 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,564 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,570 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,571 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,577 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,585 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,591 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,595 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,606 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,611 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,616 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,619 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,623 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,624 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,625 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,648 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:41,649 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:41] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,830 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "GET /admin/scannermodel/ HTTP/1.1" 200 -
+2025-07-09 21:28:43,885 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,888 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,891 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,895 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,903 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,904 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,906 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,911 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,918 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,921 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,927 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,933 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,937 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,942 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,950 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,956 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,961 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,968 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,974 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,979 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:43,981 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:43] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,641 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "GET /admin/sitespecification/ HTTP/1.1" 200 -
+2025-07-09 21:28:46,695 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,701 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,706 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,710 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,711 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,718 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,721 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,724 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,728 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,736 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,737 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,744 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,747 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,749 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,750 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,813 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,813 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,813 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,814 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,814 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:46,814 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:46] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,225 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "GET /admin/manualroomentry/ HTTP/1.1" 200 -
+2025-07-09 21:28:49,287 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,291 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,292 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,302 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,303 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,304 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,307 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,311 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,321 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,321 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,327 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,328 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,328 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,370 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,370 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,370 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,371 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,371 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,372 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,390 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:49,390 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:49] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,403 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "GET /admin/conformityreport/ HTTP/1.1" 200 -
+2025-07-09 21:28:52,507 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,512 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,516 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,519 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,523 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,528 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,529 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,535 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,546 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,547 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,550 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,556 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,565 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,570 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,575 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,580 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,588 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,591 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,598 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,603 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:52,603 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:52] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,250 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[32mGET /admin HTTP/1.1[0m" 308 -
+2025-07-09 21:28:56,276 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "GET /admin/ HTTP/1.1" 200 -
+2025-07-09 21:28:56,339 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,340 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,341 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,346 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,351 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,354 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,362 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,368 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,370 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,372 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,374 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,375 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:28:56,396 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:28:56] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,152 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "GET /admin/ HTTP/1.1" 200 -
+2025-07-09 21:29:09,207 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,210 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,212 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,215 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,223 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,226 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,234 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,237 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,241 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,250 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,261 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,270 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:29:09,271 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:09] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,161 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "GET /admin/user/ HTTP/1.1" 200 -
+2025-07-09 21:29:16,220 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,224 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,226 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,231 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,238 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,243 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,244 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,249 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,257 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,261 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,267 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,277 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,280 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,286 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,292 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,296 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,303 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,308 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,313 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,316 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:16,320 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:16] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,272 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "GET /admin/ HTTP/1.1" 200 -
+2025-07-09 21:29:20,335 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,338 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,340 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,346 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,354 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,358 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,359 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,370 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,373 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,377 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,387 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,392 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:29:20,393 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:20] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,578 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "GET /admin/ HTTP/1.1" 200 -
+2025-07-09 21:29:21,625 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,630 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,630 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,637 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,642 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,647 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,648 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,658 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,662 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,665 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,671 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,677 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:29:21,678 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:21] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:29:28,444 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-09 21:29:28,460 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:28] "GET / HTTP/1.1" 200 -
+2025-07-09 21:29:30,338 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:30] "GET /login HTTP/1.1" 200 -
+2025-07-09 21:29:40,142 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-09 21:29:40,159 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:40] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-09 21:29:40,198 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:40] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-09 21:29:45,081 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:29:45] "GET /manual-room-entry HTTP/1.1" 200 -
+2025-07-09 21:30:06,309 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:06] "POST /manual-room-entry HTTP/1.1" 200 -
+2025-07-09 21:30:11,220 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:11] "POST /manual-room-entry HTTP/1.1" 200 -
+2025-07-09 21:30:13,271 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:13] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-09 21:30:13,289 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:13] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-09 21:30:17,290 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:17] "GET /ai-analysis HTTP/1.1" 200 -
+2025-07-09 21:30:44,239 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:30:44,274 - __main__ - INFO - AI analysis completed for site CHR Paris Room B-101: REQUIRES_MODIFICATION (95%)
+2025-07-09 21:30:44,565 - __main__ - INFO - PDF report generated successfully for AI-20250709-213044
+2025-07-09 21:30:44,605 - __main__ - INFO - AI analysis completed: AI-20250709-213044 - REQUIRES_MODIFICATION (95.0%)
+2025-07-09 21:30:44,606 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:44] "[32mPOST /ai-analysis HTTP/1.1[0m" 302 -
+2025-07-09 21:30:44,895 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:44] "GET /view-report/2 HTTP/1.1" 200 -
+2025-07-09 21:30:55,683 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:55] "GET /download-report/2 HTTP/1.1" 200 -
+2025-07-09 21:30:57,368 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:57] "GET /download-report/2 HTTP/1.1" 200 -
+2025-07-09 21:30:57,386 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:30:57] "[35m[1mGET /download-report/2 HTTP/1.1[0m" 206 -
+2025-07-09 21:31:08,955 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:31:08] "GET /download-report/2 HTTP/1.1" 200 -
+2025-07-09 21:34:01,576 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:34:01] "[33mGET /visualization-dashboard/{report.id}"%20%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20style="background:%20linear-gradient(135deg,%20#1e3a8a%200%25,%20#3b82f6%20100%25);%20%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20color:%20white;%20padding:%2012px%2024px;%20text-decoration:%20none;%20%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20border-radius:%208px;%20font-weight:%20600;">%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20View%20Interactive%20Professional%20Dashboard%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20</a>%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20</div>%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20"""%0D%0A%20%20%20%20%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20html_template%20=%20f"""%0D%0A%20%20%20%20%20%20%20%20<!DOCTYPE%20html>%0D%0A%20%20%20%20%20%20%20%20<html>%0D%0A%20%20%20%20%20%20%20%20<head>%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20<meta%20charset="utf-8">%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20<style>%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20body%20{{%20font-family:%20 HTTP/1.1[0m" 404 -
+2025-07-09 21:37:39,457 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 21:37:39,545 - __main__ - INFO -  Initializing Promamec CT Scanner Professional Suite...
+2025-07-09 21:37:39,548 - __main__ - INFO -  Professional database initialized successfully
+2025-07-09 21:37:39,549 - __main__ - INFO -  Professional platform initialization complete
+2025-07-09 21:37:39,549 - __main__ - INFO -  Access the platform at: http://localhost:5000
+2025-07-09 21:37:39,550 - __main__ - INFO -  Demo credentials:
+2025-07-09 21:37:39,550 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 21:37:39,550 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 21:37:39,550 - __main__ - INFO -    Client: client / client123
+2025-07-09 21:37:39,550 - __main__ - INFO -  Run /create-sample-data to populate with professional demo data
+2025-07-09 21:37:39,577 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.121:5000
+2025-07-09 21:37:39,578 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 21:37:39,579 - werkzeug - INFO -  * Restarting with stat
+2025-07-09 21:37:42,246 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 21:37:42,338 - __main__ - INFO -  Initializing Promamec CT Scanner Professional Suite...
+2025-07-09 21:37:42,342 - __main__ - INFO -  Professional database initialized successfully
+2025-07-09 21:37:42,343 - __main__ - INFO -  Professional platform initialization complete
+2025-07-09 21:37:42,344 - __main__ - INFO -  Access the platform at: http://localhost:5000
+2025-07-09 21:37:42,344 - __main__ - INFO -  Demo credentials:
+2025-07-09 21:37:42,344 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 21:37:42,344 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 21:37:42,345 - __main__ - INFO -    Client: client / client123
+2025-07-09 21:37:42,345 - __main__ - INFO -  Run /create-sample-data to populate with professional demo data
+2025-07-09 21:37:42,358 - werkzeug - WARNING -  * Debugger is active!
+2025-07-09 21:37:42,363 - werkzeug - INFO -  * Debugger PIN: 411-176-201
+2025-07-09 21:37:56,585 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:37:56] "GET / HTTP/1.1" 200 -
+2025-07-09 21:37:57,276 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:37:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-09 21:38:10,447 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:10] "[33mGET /{{%20url_for('scanner_comparison')%20}} HTTP/1.1[0m" 404 -
+2025-07-09 21:38:12,760 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:12] "GET / HTTP/1.1" 200 -
+2025-07-09 21:38:14,512 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:14] "GET /login HTTP/1.1" 200 -
+2025-07-09 21:38:16,672 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-09 21:38:16,694 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:16] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-09 21:38:16,809 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:16] "GET /admin/ HTTP/1.1" 200 -
+2025-07-09 21:38:17,297 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,303 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,310 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,318 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,324 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,331 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,337 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,338 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,344 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,374 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,402 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,415 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:17,421 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:17] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:35,898 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:35] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-07-09 21:38:35,914 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:35] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-09 21:38:35,939 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:35] "GET /admin/ HTTP/1.1" 200 -
+2025-07-09 21:38:36,003 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,005 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,007 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,015 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,019 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,023 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,024 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,027 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,039 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,041 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,047 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,057 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-09 21:38:36,059 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:36] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-09 21:38:41,538 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-09 21:38:41,550 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:41] "GET / HTTP/1.1" 200 -
+2025-07-09 21:38:43,335 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:43] "GET /login HTTP/1.1" 200 -
+2025-07-09 21:38:51,027 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-09 21:38:51,044 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:51] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-09 21:38:51,087 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:51] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-09 21:38:55,251 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:38:55] "GET /scanner-comparison HTTP/1.1" 200 -
+2025-07-09 21:39:16,168 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:39:16] "[33mGET /{{%20url_for('scanner_comparison')%20}} HTTP/1.1[0m" 404 -
+2025-07-09 21:39:18,334 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:39:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-09 21:39:18,351 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:39:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-09 21:39:18,373 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:39:18] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-09 21:39:34,797 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:39:34] "GET /manual-room-entry HTTP/1.1" 200 -
+2025-07-09 21:39:46,507 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:39:46] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-09 21:39:46,524 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:39:46] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-09 21:39:53,953 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:39:53] "GET /ai-analysis HTTP/1.1" 200 -
+2025-07-09 21:40:14,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:40:14,968 - __main__ - INFO - AI analysis completed for site CHR Paris Room B-101: REQUIRES_MODIFICATION (95%)
+2025-07-09 21:40:15,207 - __main__ - INFO - PDF report generated successfully for AI-20250709-214014
+2025-07-09 21:40:15,274 - __main__ - INFO - AI analysis completed: AI-20250709-214014 - REQUIRES_MODIFICATION (95.0%)
+2025-07-09 21:40:15,277 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:40:15] "[32mPOST /ai-analysis HTTP/1.1[0m" 302 -
+2025-07-09 21:40:15,474 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:40:15] "GET /view-report/3 HTTP/1.1" 200 -
+2025-07-09 21:40:20,206 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:40:20] "GET /ai-analysis HTTP/1.1" 200 -
+2025-07-09 21:40:43,442 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:40:43] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-09 21:40:43,466 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:40:43] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-09 21:40:46,098 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 21:40:46] "GET /manual-room-entry HTTP/1.1" 200 -
+2025-07-09 22:01:27,555 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 22:01:27,727 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 22:01:27,727 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 22:01:27,728 - __main__ - INFO -    Client: client / client123
+2025-07-09 22:01:27,782 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.121:5000
+2025-07-09 22:01:27,783 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:01:27,785 - werkzeug - INFO -  * Restarting with stat
+2025-07-09 22:01:33,286 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 22:01:33,478 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 22:01:33,478 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 22:01:33,479 - __main__ - INFO -    Client: client / client123
+2025-07-09 22:01:33,515 - werkzeug - WARNING -  * Debugger is active!
+2025-07-09 22:01:33,530 - werkzeug - INFO -  * Debugger PIN: 411-176-201
+2025-07-09 22:01:33,709 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-09 22:01:34,222 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:34] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-07-09 22:01:34,237 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:34] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-07-09 22:01:34,319 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:34] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=K4PGiJhm8Jf9eXeyYFQC HTTP/1.1" 200 -
+2025-07-09 22:01:34,860 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-07-09 22:01:47,922 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-09 22:01:47,993 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-09 22:01:48,179 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-09 22:01:48,602 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:01:48] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=K4PGiJhm8Jf9eXeyYFQC HTTP/1.1" 200 -
+2025-07-09 22:02:22,031 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 22:02:22,201 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 22:02:22,202 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 22:02:22,202 - __main__ - INFO -    Client: client / client123
+2025-07-09 22:02:22,373 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.121:5000
+2025-07-09 22:02:22,373 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:02:22,376 - werkzeug - INFO -  * Restarting with stat
+2025-07-09 22:02:28,005 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 22:02:28,196 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 22:02:28,197 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 22:02:28,197 - __main__ - INFO -    Client: client / client123
+2025-07-09 22:02:28,228 - werkzeug - WARNING -  * Debugger is active!
+2025-07-09 22:02:28,241 - werkzeug - INFO -  * Debugger PIN: 411-176-201
+2025-07-09 22:02:28,413 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:02:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-09 22:02:28,816 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:02:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-09 22:02:28,824 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:02:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-09 22:02:28,902 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:02:28] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=rxgXNrV0WLDnLhmROyLa HTTP/1.1" 200 -
+2025-07-09 22:05:30,172 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 22:05:30,306 - __main__ - INFO - Initializing Promamec CT Scanner Professional Suite...
+2025-07-09 22:05:30,312 - __main__ - INFO - Professional database initialized successfully
+2025-07-09 22:05:30,313 - __main__ - INFO - Professional platform initialization complete
+2025-07-09 22:05:30,314 - __main__ - INFO - Access the platform at: http://localhost:5000
+2025-07-09 22:05:30,314 - __main__ - INFO - Demo credentials:
+2025-07-09 22:05:30,314 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 22:05:30,315 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 22:05:30,315 - __main__ - INFO -    Client: client / client123
+2025-07-09 22:05:30,316 - __main__ - INFO - Run /create-sample-data to populate with professional demo data
+2025-07-09 22:05:30,365 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.121:5000
+2025-07-09 22:05:30,366 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-09 22:05:30,368 - werkzeug - INFO -  * Restarting with stat
+2025-07-09 22:05:35,504 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-09 22:05:35,654 - __main__ - INFO - Initializing Promamec CT Scanner Professional Suite...
+2025-07-09 22:05:35,659 - __main__ - INFO - Professional database initialized successfully
+2025-07-09 22:05:35,661 - __main__ - INFO - Professional platform initialization complete
+2025-07-09 22:05:35,661 - __main__ - INFO - Access the platform at: http://localhost:5000
+2025-07-09 22:05:35,662 - __main__ - INFO - Demo credentials:
+2025-07-09 22:05:35,662 - __main__ - INFO -    Admin: admin / admin123
+2025-07-09 22:05:35,663 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-09 22:05:35,663 - __main__ - INFO -    Client: client / client123
+2025-07-09 22:05:35,664 - __main__ - INFO - Run /create-sample-data to populate with professional demo data
+2025-07-09 22:05:35,691 - werkzeug - WARNING -  * Debugger is active!
+2025-07-09 22:05:35,702 - werkzeug - INFO -  * Debugger PIN: 411-176-201
+2025-07-09 22:05:55,208 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-09 22:05:55,643 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-09 22:05:55,734 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-09 22:05:55,826 - werkzeug - INFO - 127.0.0.1 - - [09/Jul/2025 22:05:55] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=gJTljogUQpLZfFALab1o HTTP/1.1" 200 -
+2025-07-10 00:41:49,039 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-10 00:41:49,170 - __main__ - INFO - Initializing Promamec CT Scanner Professional Suite...
+2025-07-10 00:41:49,177 - __main__ - INFO - Professional database initialized successfully
+2025-07-10 00:41:49,179 - __main__ - INFO - Professional platform initialization complete
+2025-07-10 00:41:49,179 - __main__ - INFO - Access the platform at: http://localhost:5000
+2025-07-10 00:41:49,179 - __main__ - INFO - Demo credentials:
+2025-07-10 00:41:49,180 - __main__ - INFO -    Admin: admin / admin123
+2025-07-10 00:41:49,180 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-10 00:41:49,181 - __main__ - INFO -    Client: client / client123
+2025-07-10 00:41:49,181 - __main__ - INFO - Run /create-sample-data to populate with professional demo data
+2025-07-10 00:41:49,234 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.7:5000
+2025-07-10 00:41:49,234 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 00:41:49,237 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 00:41:54,778 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-10 00:41:54,941 - __main__ - INFO - Initializing Promamec CT Scanner Professional Suite...
+2025-07-10 00:41:54,948 - __main__ - INFO - Professional database initialized successfully
+2025-07-10 00:41:54,950 - __main__ - INFO - Professional platform initialization complete
+2025-07-10 00:41:54,951 - __main__ - INFO - Access the platform at: http://localhost:5000
+2025-07-10 00:41:54,951 - __main__ - INFO - Demo credentials:
+2025-07-10 00:41:54,951 - __main__ - INFO -    Admin: admin / admin123
+2025-07-10 00:41:54,952 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-10 00:41:54,952 - __main__ - INFO -    Client: client / client123
+2025-07-10 00:41:54,952 - __main__ - INFO - Run /create-sample-data to populate with professional demo data
+2025-07-10 00:41:54,976 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:41:54,991 - werkzeug - INFO -  * Debugger PIN: 411-176-201
+2025-07-10 00:41:55,139 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:41:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-10 00:41:55,558 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:41:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-10 00:41:55,564 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:41:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-10 00:41:55,663 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:41:55] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=hraNaNsqIUZl4529k3Zz HTTP/1.1" 200 -
+2025-07-10 00:42:16,189 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:42:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-10 00:42:16,340 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:42:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-10 00:42:16,341 - werkzeug - INFO - 172.20.10.7 - - [10/Jul/2025 00:42:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-10 00:47:49,573 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-10 00:47:49,744 - __main__ - INFO -    Admin: admin / admin123
+2025-07-10 00:47:49,744 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-10 00:47:49,745 - __main__ - INFO -    Client: client / client123
+2025-07-10 00:47:49,799 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.7:5000
+2025-07-10 00:47:49,800 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 00:47:49,802 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 00:47:54,983 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-10 00:47:55,161 - __main__ - INFO -    Admin: admin / admin123
+2025-07-10 00:47:55,162 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-10 00:47:55,162 - __main__ - INFO -    Client: client / client123
+2025-07-10 00:47:55,200 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:47:55,213 - werkzeug - INFO -  * Debugger PIN: 411-176-201
+2025-07-10 00:48:03,012 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:48:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-10 00:48:03,368 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:48:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-10 00:48:03,518 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:48:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-10 00:48:03,948 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:48:03] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=IzSIZZngzPauG0nupvdW HTTP/1.1" 200 -
+2025-07-10 00:50:03,007 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-10 00:50:03,197 - __main__ - INFO -  Initializing Promamec CT Scanner Professional Suite...
+2025-07-10 00:50:03,204 - __main__ - INFO -  Professional database initialized successfully
+2025-07-10 00:50:03,205 - __main__ - INFO -  Professional platform initialization complete
+2025-07-10 00:50:03,205 - __main__ - INFO -  Access the platform at: http://localhost:5000
+2025-07-10 00:50:03,206 - __main__ - INFO -  Demo credentials:
+2025-07-10 00:50:03,206 - __main__ - INFO -    Admin: admin / admin123
+2025-07-10 00:50:03,206 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-10 00:50:03,207 - __main__ - INFO -    Client: client / client123
+2025-07-10 00:50:03,207 - __main__ - INFO -  Run /create-sample-data to populate with professional demo data
+2025-07-10 00:50:03,269 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.7:5000
+2025-07-10 00:50:03,270 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-10 00:50:03,272 - werkzeug - INFO -  * Restarting with stat
+2025-07-10 00:50:08,819 - __main__ - INFO - OpenAI client initialized successfully
+2025-07-10 00:50:09,005 - __main__ - INFO -  Initializing Promamec CT Scanner Professional Suite...
+2025-07-10 00:50:09,012 - __main__ - INFO -  Professional database initialized successfully
+2025-07-10 00:50:09,013 - __main__ - INFO -  Professional platform initialization complete
+2025-07-10 00:50:09,014 - __main__ - INFO -  Access the platform at: http://localhost:5000
+2025-07-10 00:50:09,014 - __main__ - INFO -  Demo credentials:
+2025-07-10 00:50:09,014 - __main__ - INFO -    Admin: admin / admin123
+2025-07-10 00:50:09,015 - __main__ - INFO -    Engineer: engineer / engineer123
+2025-07-10 00:50:09,015 - __main__ - INFO -    Client: client / client123
+2025-07-10 00:50:09,016 - __main__ - INFO -  Run /create-sample-data to populate with professional demo data
+2025-07-10 00:50:09,042 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:50:09,061 - werkzeug - INFO -  * Debugger PIN: 411-176-201
+2025-07-10 00:50:11,961 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:11] "GET / HTTP/1.1" 200 -
+2025-07-10 00:50:12,872 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-10 00:50:16,285 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:16] "GET /login HTTP/1.1" 200 -
+2025-07-10 00:50:18,747 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-10 00:50:18,778 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:50:18,848 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:18] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 00:50:26,155 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:26] "GET /manual-room-entry HTTP/1.1" 200 -
+2025-07-10 00:50:28,813 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:28] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:50:28,842 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:28] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 00:50:31,006 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:31] "GET /ai-analysis HTTP/1.1" 200 -
+2025-07-10 00:50:33,958 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:33] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:50:33,988 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:33] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 00:50:36,520 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:36] "GET /scanner-comparison HTTP/1.1" 200 -
+2025-07-10 00:50:50,500 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:50:50] "GET /analytics-dashboard HTTP/1.1" 200 -
+2025-07-10 00:51:04,106 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:51:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:51:04,139 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:51:04] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 00:51:06,729 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:51:06] "GET /manual-room-entry HTTP/1.1" 200 -
+2025-07-10 00:51:28,558 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:51:28] "POST /manual-room-entry HTTP/1.1" 200 -
+2025-07-10 00:51:37,277 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:51:37] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:51:37,310 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:51:37] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 00:51:45,903 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:51:45] "GET /ai-analysis HTTP/1.1" 200 -
+2025-07-10 00:51:58,490 - openai._base_client - INFO - Retrying request to /chat/completions in 0.490945 seconds
+2025-07-10 00:51:58,983 - openai._base_client - INFO - Retrying request to /chat/completions in 0.765057 seconds
+2025-07-10 00:51:59,752 - __main__ - ERROR - Enhanced AI analysis failed: Connection error.
+2025-07-10 00:51:59,755 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:51:59] "POST /ai-analysis HTTP/1.1" 200 -
+2025-07-10 00:52:07,499 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:07] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:52:07,537 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:07] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 00:52:11,032 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:11] "GET /admin/ HTTP/1.1" 200 -
+2025-07-10 00:52:12,174 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,188 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,199 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,211 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,223 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,234 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,243 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,252 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,263 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,293 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,337 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,356 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:12,363 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:12] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,437 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "GET /admin/sitespecification/ HTTP/1.1" 200 -
+2025-07-10 00:52:21,537 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,549 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,553 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,556 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,566 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,575 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,580 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,591 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,595 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,598 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,603 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,613 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,621 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,628 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,632 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,663 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,667 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,668 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,671 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,685 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,691 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:21,696 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:21] "[36mGET /admin/static/bootstrap/bootstrap4/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,817 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "GET /admin/manualroomentry/ HTTP/1.1" 200 -
+2025-07-10 00:52:24,917 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,923 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,926 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,928 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,939 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,949 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,950 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,959 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,969 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,975 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,985 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,991 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:24,997 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:24] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:25,004 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:25] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:25,019 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:25] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:25,023 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:25] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:25,026 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:25] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:25,034 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:25] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:25,044 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:25] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:25,048 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:25] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:25,051 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:25] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,097 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "GET /admin/conformityreport/ HTTP/1.1" 200 -
+2025-07-10 00:52:36,199 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,202 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,207 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,211 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,217 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,218 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,241 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,245 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,246 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,250 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,255 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,271 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,277 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,281 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,291 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,294 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,312 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,318 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,319 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,324 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:36,330 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:36] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,150 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "GET /admin/conformityreport/edit/?id=2&url=/admin/conformityreport/?page_size%3D20 HTTP/1.1" 200 -
+2025-07-10 00:52:44,262 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,270 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,273 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,285 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,285 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,296 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,304 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,311 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,323 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,324 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,328 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,340 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,347 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,349 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,355 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,368 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,375 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,388 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:44,433 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:44] "GET /admin/static/vendor/select2/select2.png HTTP/1.1" 200 -
+2025-07-10 00:52:52,964 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:52] "GET /admin/conformityreport/?page_size=20 HTTP/1.1" 200 -
+2025-07-10 00:52:53,066 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,077 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,081 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,082 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,096 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,101 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,105 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,114 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,120 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,126 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,128 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,145 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,153 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,160 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,169 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,169 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,179 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,182 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,195 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,201 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:52:53,203 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:52:53] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,780 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "GET /admin/ HTTP/1.1" 200 -
+2025-07-10 00:54:08,879 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,888 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,896 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,900 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,907 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,913 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,924 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,927 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,930 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,932 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,981 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:08,990 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:08] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:09,000 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:09] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,024 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "GET /admin/user/ HTTP/1.1" 200 -
+2025-07-10 00:54:12,116 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,119 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,126 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,133 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,138 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,142 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,151 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,160 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,173 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,175 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,177 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,185 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,200 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,206 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,219 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,225 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,239 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,241 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,245 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,249 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,263 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:12,266 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:12] "[36mGET /admin/static/bootstrap/bootstrap4/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,541 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "GET /admin/user/new/?url=/admin/user/?page_size%3D20 HTTP/1.1" 200 -
+2025-07-10 00:54:26,648 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,654 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,662 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,669 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,680 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,684 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,689 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,703 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,706 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,712 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,721 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,725 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,730 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,734 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,755 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,767 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,774 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:26,776 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:26] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,486 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "GET /admin/user/?page_size=20 HTTP/1.1" 200 -
+2025-07-10 00:54:47,591 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,599 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,600 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,604 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,609 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,613 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,632 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,634 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,644 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,648 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,667 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,670 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,674 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,681 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,700 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,712 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,722 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,727 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,742 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,747 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:47,750 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:47] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,174 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "GET /admin/project/ HTTP/1.1" 200 -
+2025-07-10 00:54:53,272 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,276 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,280 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,288 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,292 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,298 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,305 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,308 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,317 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,333 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,336 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,341 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,344 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,352 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,369 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,374 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,378 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,386 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,396 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,401 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:54:53,402 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:54:53] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:20,931 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:20] "GET /admin/scannermodel/ HTTP/1.1" 200 -
+2025-07-10 00:55:21,030 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,035 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,039 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,041 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,052 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,061 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,065 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,073 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,089 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,090 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,094 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,101 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,107 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,112 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,130 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,135 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,141 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,153 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,156 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,164 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:21,169 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:21] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,013 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "GET /admin/sitespecification/ HTTP/1.1" 200 -
+2025-07-10 00:55:29,119 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,127 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,132 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,140 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,145 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,150 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,157 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,166 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,172 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,178 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,190 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,196 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,206 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,213 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,218 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,221 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,234 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,240 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,248 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,251 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:29,255 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:29] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,483 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "GET /admin/conformityreport/ HTTP/1.1" 200 -
+2025-07-10 00:55:38,587 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,600 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,605 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,612 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,614 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/select2/select2.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,631 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/select2/select2-bootstrap4.css?v=1.4.6 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,644 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs4.css?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,645 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,663 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,683 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,718 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,723 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,732 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,752 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,758 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,773 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,777 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,780 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,787 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/admin/js/bs4_modal.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,806 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/admin/js/bs4_filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:38,808 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:38] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,662 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "GET /admin/ HTTP/1.1" 200 -
+2025-07-10 00:55:53,777 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,787 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,788 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,803 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,809 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,828 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,834 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,847 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,847 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,855 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,864 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,868 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:55:53,891 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:53] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:55:57,861 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-10 00:55:57,887 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:57] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:55:57,921 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:55:57] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 00:56:06,422 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:56:06] "GET /manual-room-entry HTTP/1.1" 200 -
+2025-07-10 00:56:32,380 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:56:32] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:56:32,417 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:56:32] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 00:56:35,003 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:56:35] "GET /ai-analysis HTTP/1.1" 200 -
+2025-07-10 00:57:07,937 - openai._base_client - INFO - Retrying request to /chat/completions in 0.438763 seconds
+2025-07-10 00:57:08,379 - openai._base_client - INFO - Retrying request to /chat/completions in 0.940545 seconds
+2025-07-10 00:57:09,323 - __main__ - ERROR - Enhanced AI analysis failed: Connection error.
+2025-07-10 00:57:09,327 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:57:09] "POST /ai-analysis HTTP/1.1" 200 -
+2025-07-10 00:58:31,955 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:31] "GET /admin/ HTTP/1.1" 200 -
+2025-07-10 00:58:32,079 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/bootstrap/bootstrap4/swatch/default/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,081 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/bootstrap/bootstrap4/css/bootstrap.min.css?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,085 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/admin/css/bootstrap4/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,098 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/vendor/jquery.min.js?v=3.5.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,105 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/bootstrap/bootstrap4/css/font-awesome.min.css?v=4.7.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,111 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/bootstrap/bootstrap4/js/popper.min.js HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,115 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/bootstrap/bootstrap4/js/bootstrap.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,128 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/vendor/moment.min.js?v=2.9.4 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,139 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/vendor/bootstrap4/dropdown.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,139 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/vendor/bootstrap4/util.js?v=4.3.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,146 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/vendor/select2/select2.min.js?v=4.2.1 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,156 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/vendor/multi-level-dropdowns-bootstrap/bootstrap4-dropdown-ml-hack.js HTTP/1.1[0m" 304 -
+2025-07-10 00:58:32,157 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:32] "[36mGET /admin/static/admin/js/helpers.js?v=1.0.0 HTTP/1.1[0m" 304 -
+2025-07-10 00:58:36,140 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:36] "GET /ai-analysis HTTP/1.1" 200 -
+2025-07-10 00:58:43,192 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-10 00:58:43,215 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:43] "GET / HTTP/1.1" 200 -
+2025-07-10 00:58:45,830 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:45] "GET /login HTTP/1.1" 200 -
+2025-07-10 00:58:54,834 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:58:54] "POST /login HTTP/1.1" 200 -
+2025-07-10 00:59:05,448 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:59:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-10 00:59:05,471 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:59:05] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:59:05,513 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:59:05] "GET /client-dashboard HTTP/1.1" 200 -
+2025-07-10 00:59:46,055 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:59:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-10 00:59:46,085 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:59:46] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 00:59:46,114 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:59:46] "GET /client-dashboard HTTP/1.1" 200 -
+2025-07-10 00:59:55,664 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:59:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-10 00:59:55,688 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 00:59:55] "GET / HTTP/1.1" 200 -
+2025-07-10 01:00:04,210 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:00:04] "GET /login HTTP/1.1" 200 -
+2025-07-10 01:00:11,047 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:00:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-10 01:00:11,073 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:00:11] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 01:00:11,106 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:00:11] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 01:00:17,905 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:00:17] "GET /analytics-dashboard HTTP/1.1" 200 -
+2025-07-10 01:00:36,243 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:00:36] "GET /ai-analysis HTTP/1.1" 200 -
+2025-07-10 01:00:39,220 - openai._base_client - INFO - Retrying request to /chat/completions in 0.443833 seconds
+2025-07-10 01:00:39,667 - openai._base_client - INFO - Retrying request to /chat/completions in 0.860534 seconds
+2025-07-10 01:00:40,530 - __main__ - ERROR - Enhanced AI analysis failed: Connection error.
+2025-07-10 01:00:40,533 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:00:40] "POST /ai-analysis HTTP/1.1" 200 -
+2025-07-10 01:04:52,698 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:04:52] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 01:04:52,731 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:04:52] "GET /engineer-dashboard HTTP/1.1" 200 -
+2025-07-10 01:05:01,487 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:05:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-10 01:05:01,516 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:05:01] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-07-10 01:05:01,548 - werkzeug - INFO - 127.0.0.1 - - [10/Jul/2025 01:05:01] "GET /engineer-dashboard HTTP/1.1" 200 -
