@@ -1,0 +1,14 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+
+# Databases and logs
+*.db
+*.log
+
+# Reports and generated files
+reports/
+instance/
